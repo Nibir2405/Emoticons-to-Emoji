@@ -4,13 +4,13 @@ def faces(text):
     if ":)" in text:
         print(text.strip(":)") + "🙂")
     
-    if ":(" in text:
+    elif ":(" in text:
         print(text.strip(":(") + "😔")
     
-    if ":‑|" in text:
+    elif ":‑|" in text:
         print(text.strip(":‑|") + "😑")
     
-    if "(>w<)" in text:
+    elif "(>w<)" in text:
         print(text.strip("(>w<)") + "😖")
     
      
