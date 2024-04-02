@@ -13,7 +13,6 @@ def faces(text):
     if "(>w<)" in text:
         print(text.strip("(>w<)") + "😖")
     
-
-    
+     
      
 faces(text)
