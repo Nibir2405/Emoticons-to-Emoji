@@ -1,162 +1,39 @@
-#Converting Emoticons to Emoji
-text = input("Write a emoticon ")
+#Converting Emoticons to Emoji/Emoji to Emoticon
 
-match text:
-    case ":)":
-        print("🙂")
-    
-    case ":(":
-        print("😔")
-    
-    case ":‑|":
-        print("😑")
+#Ask the user which transformation he wants.
+print("Two times of Transformation this program can output.\n1.Emoticons to Emoji\n2.Emoji to Emoticons ")
 
-    case ">w<":
-        print("😖")
-    
-    case ":P":
-        print("😋")
-    
-    case ":D":
-        print("😀")
+emoji_or_emoticon = int(input("Type the number of the option you want. "))
 
-    case ":O":
-        print("😮")
-    
-    case ";)":
-        print("😉")
-    
-    case "B|":
-        print("😎")
-    
-    case ":/":
-        print("😕")
-    
-    case ":'(":
-        print("😢")
+def number_print():
+    #input has to be greater than 0 and less than 3
+    if emoji_or_emoticon == 1:
+        feature_no1 = input("Write an Emoticons ")
+        print(feature_no1)
+    elif emoji_or_emoticon == 2:
+        feature_no2 = input("Write an Emoji ")
+        print(feature_no2)
 
-    case "3:)":
-        print("😈")
-    
-    case "O:)":
-        print("😇")
-    
-    case ":*":
-        print("😘")
-    
-    case "<3":
-        print("💙")
-    
-    case "-_-":
-        print("😑")
-    
-    case ":3":
-        print("🥴")
-
-    case "(^^^)":
-        print("🦈")
-    
-    case ":poop":
-        print("💩")
-    
-    case "(y)":
-        print("👍")
-    
-    case ":))":
-        print("😄")
-
-    case "X(":
-        print("😡")
-
-    case "/:)":
-        print("🤨")
-
-    case ":-&":
-        print("🤮")
-
-    case ":O)":
-        print("🤡")
-
-    case "=D>":
-        print("👏")
-
-    case ":|]":
-        print("🤖")
-
-    case ":-B":
-        print("🤓")
-
-    case "<):)":
-        print("🤠")
-
-    case ":-?":
-        print("🤔")
-
-    case "@-)":
-        print("😵")
-
-    case ">:D<":
-        print("🤗")
-
-    case "Φ_Φ":
-        print("😨")
-
-    case ":‑.":
-        print("🥱")
-
-    case "xD":
-        print("😂")
-
-    case ":$":
-        print("😳")
-
-    case "=^.^=":
-        print("🐱")
-
-    case "~_~":
-        print("😴")
-
-    case "^_~":
-        print("🕺")
-
-    case "</3":
-        print("💔")
-
-    case ">:|":
-        print("🙄")
-
-    case "-|--'":
-        print("✈")
-    
-    case "(.V.)":
-        print("👽")
-
-    case "$_$":
-        print("🤑")
-
-    case ":->":
-        print("😁")
-
-    case "~:0":
-        print("👶")
-
-    case "(8-)":
-        print("👨‍🦲")
-
-    case "<=====<>~":
-        print("🐸")
-
-    case "(=^_^=)":
-        print("🐰")
-
-    case "@-->---":
-        print("🌹")
+    else:
+        print("Write the correct number of the function you want")
+        
 
     
-   
-    
-    
+
+number_print()
     
 
+        
+        
     
-    
+
+
+
+
+
+
+
+
+
+ 
+
