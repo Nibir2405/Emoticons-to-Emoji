@@ -1,7 +1,18 @@
 def feature_no1():
-    return input("Write an emoticons ")
+    """
+    Prompts the user to input a text containing emoticons.
+    
+    Returns:
+        str: The user's input text.
+    """
+    return input("Write an emoticons: ")
     
 
 def feature_no2():
-    return input("Write an Emoji ")
+    """
+    Prompts the user to input a text containing emojis.
     
+    Returns:
+        str: The user's input text.
+    """
+    return input("Write an Emoji: ")
