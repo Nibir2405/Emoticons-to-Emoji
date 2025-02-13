@@ -57,6 +57,9 @@ Welcome to **Emoticons-to-Emoji**! This is my first complete project which conve
      ```
    - Open a pull request.
 
+5. **License:**
+   This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Acknowledgments
 
 - Thanks to everyone who encouraged and supported me throughout this project.
